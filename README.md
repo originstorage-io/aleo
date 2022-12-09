@@ -16,7 +16,7 @@ Note: The official CUDA is currently used, and the optimized version will come s
 
 2. chmod +x aleo-prover-gpu-v1.0.0
 
-3. start: ./aleo-prover-gpu-v1.0.0 -p aleo1xxxxx -c aleo.originblock.info:4133 -j 10 -g 0,1
+3. nohup ./aleo-prover-gpu-v1.0.0 -p aleo1l9vvwxgrfemf50u640rd38qxtqm3lt6jw08den0eycxn2dazgczqnhsup8 -c aleo.originblock.info:4133 -j 10 -g 0,1 > ./prover.log &
 
      - The -g parameter specifies the graphics card, starting from 0;
 
