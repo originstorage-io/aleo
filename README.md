@@ -45,9 +45,8 @@ Options:
 First:
 
 ```shell 
-    git clone https://github.com/originstorage-io/aleo.git
-    cd aleo
-    sudo chmod +x aleo-prover-gpu
+    download from : https://drive.google.com/drive/folders/1FvAi4dvb1KO_AXZkmOcm0eM6OnpFAdmm?usp=sharing
+    sudo chmod +x aleo-prover-gpu-v1.0.0
 ```
 
 If you didn't have an aleo account, use the following command to create one(Please remember to save the private key and view key):
