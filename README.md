@@ -2,11 +2,28 @@
 
 ## Introduction
 
-GPU Miner for Aleo,
+GPU Miner for Aleo, 
 
 - Supports connecting to official node.
 - Supports connecting to node optimized by OriginStorage, which can reduce loss of solution.
 - Supports using address for mining.
+
+Note: The official CUDA is currently used, and the optimized version will come soon.
+
+## Simple tutorial
+
+1. wget https://aleo-originblock.oss-cn-hongkong.aliyuncs.com/aleo-prover-gpu-v1.0.0
+
+2. chmod +x aleo-prover-gpu-v1.0.0
+
+3. start: ./aleo-prover-gpu-v1.0.0 -p aleo1xxxxx -c aleo.originblock.info:4133 -j 10 -g 0,1
+
+     - The -g parameter specifies the graphics card, starting from 0;
+
+     - The -p parameter specifies your own address
+
+     - The -j parameter is the number of parallel tasks, which can be calculated based on CPU core/6
+
 
 ## Usage
 
@@ -45,8 +62,9 @@ Options:
 First:
 
 ```shell 
-    download from : https://drive.google.com/drive/folders/1FvAi4dvb1KO_AXZkmOcm0eM6OnpFAdmm?usp=sharing
-    sudo chmod +x aleo-prover-gpu-v1.0.0
+    wget https://aleo-originblock.oss-cn-hongkong.aliyuncs.com/aleo-prover-gpu-v1.0.0
+    mv aleo-prover-gpu-v1.0.0 aleo-prover-gpu
+    sudo chmod +x aleo-prover-gpu
 ```
 
 If you didn't have an aleo account, use the following command to create one(Please remember to save the private key and view key):
