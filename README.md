@@ -10,11 +10,11 @@ GPU optimized miner for Aleo,
 
 ## Simple tutorial
 
-1. wget https://aleo-originblock.oss-cn-hongkong.aliyuncs.com/aleo-prover-gpu-v1.0.1
+1. wget https://aleo-originblock.oss-cn-hongkong.aliyuncs.com/aleo-prover-gpu-v1.1.0
 
-2. chmod +x aleo-prover-gpu-v1.0.1
+2. chmod +x aleo-prover-gpu-v1.1.0
 
-3. nohup ./aleo-prover-gpu-v1.0.1 -p aleo1l9vvwxgrfemf50u640rd38qxtqm3lt6jw08den0eycxn2dazgczqnhsup8 -c aleo.originblock.info:4133 -j 16 -g 0 > ./prover.log &
+3. nohup ./aleo-prover-gpu-v1.1.0 -p aleo1l9vvwxgrfemf50u640rd38qxtqm3lt6jw08den0eycxn2dazgczqnhsup8 -c aleo.originblock.info:4133 -j 8 -g 0 > ./prover.log &
 
      - The -g parameter specifies the graphics card, starting from 0;
 
@@ -99,3 +99,5 @@ support for aleo testnet3 phase2.
 ### 1.0.1
 GPU optimization
 
+### 1.1.0
+GPU optimization and CPU optimization
